@@ -4,6 +4,7 @@
 - https://www.cvebase.com/poc    //漏洞poc统计站。
 - https://github.com/offensive-security/exploitdb    //美国Offensive Security维护的'exploit-db.com'漏洞库，包含利用插件、漏洞场景、渗透测试系统 etc。G:/nomi-sec/PoC-in-GitHub;G:/offensive-security/exploitdb-bin-sploits //已编译漏洞执行文件;G:/HacTF/poc--exp;G:/DrunkenShells/Disclosures;G:/coffeehb/Some-PoC-oR-ExP;G:/hackerhouse-opensource/exploits;G:/Yang0615777/PocList;--
 - https://github.com/vulnersCom/getsploit    //Py3。类似于searchsploit，通过各种数据库的官方接口进行payload的查找。
+- http://wiki.peiqi.tech    //peiqi wiki-poc文库。G:/PeiQi0/PeiQi-WIKI-POC;--
 - https://github.com/BaizeSec/bylibrary    //白阁文库漏洞库。W:wiki.bylibrary.cn;--
 - https://wiki.0-sec.org/    //零组公开漏洞库。W:dream0x01.com/spear-framework;--
 - https://wiki.wgpsec.org/    //狼组安全团队公开知识库，Web安全、CTF、红蓝对抗。
@@ -44,7 +45,7 @@
 - https://github.com/0vercl0k/CVE-2019-9810    //命令执行Firefox on Windows 64 bits.
 - https://github.com/exodusintel/CVE-2019-0808    //JS,C++。CVE-2019-5786 and CVE-2019-0808 Chrome 72.0.3626.119 stable Windows 7 x86 exploit chain.
 - https://quitten.github.io/Firefox/    //利用浏览器(file:///home/user/) Bug使用钓鱼html读取客户端文件
-- https://github.com/evilcos/cookiehacker    //Chrome扩展程序。JavaScript document.cookie / Wireshark Cookie 余弦 包括注入、编辑、添加、删除cookie。G:/lfzark/cookie-injecting-tools;--
+- https://github.com/r4j0x00/exploits    //chrome漏洞，--no-sandbox下JS命令执行
 ### 远程应用服务漏洞
 - https://github.com/blacknbunny/libSSH-Authentication-Bypass    //CVE-2018-10933 libssh服务端身份验证绕过。G:/leapsecurity/libssh-scanner;--
 - https://www.jianshu.com/p/726a3791b5b9    //OpenSSH用户枚举漏洞（CVE-2018-15473）
@@ -232,6 +233,7 @@
 - https://github.com/3gstudent/Smbtouch-Scanner    //Py。MS17-010方程式永恒之蓝ETERNAL 445 SMB漏洞检测。
 - https://github.com/hanshaze/MS17-010-EternalBlue-WinXP-Win10    //ms17010 winxp-win10全版本利用。
 - https://github.com/countercept/doublepulsar-detection-script    //Py。方程式双倍脉冲RDP漏洞。
+- https://github.com/afwu/PrintNightmare    // (CVE-2021-1675)：域账户权限下Windows 后台处理程序服务中的远程代码执行
 ### Windows提权利用LPE
 - https://github.com/SecWiki/windows-kernel-exploits    //Windows平台提权漏洞Exp集合。P:/kerberos域控ms14‐068/;G:/51x/WHP;G:/ianxtianxt/win-exp-/;G:/lyshark/Windows-exploits;--
 - https://github.com/Ascotbe/Kernelhub    //Windows 提权漏洞合集，附带编译环境，演示GIF图，漏洞详细信息，可执行文件。goodjob。

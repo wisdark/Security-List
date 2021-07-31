@@ -1,6 +1,6 @@
 # 后渗透
 - https://github.com/rapid7/metasploit-framework    //Ruby。后渗透框架。greatjob。
-## Bypass监控设备
+## 绕过监控Bypass
 - https://sec.thief.one/article_content?a_id=00883adf1ec3384c4040c37fa8ea01ec/    //公众号：绕过卡巴进程保护的一些总结。卡巴斯基绕过。
 - https://blog.xpnsec.com/evading-sysmon-dns-monitoring/    //Intro。规避Sysmon DNS监控。
 - https://github.com/ZanderChang/anti-sandbox    //Windows对抗沙箱和虚拟机的方法总结，沙箱绕过。
@@ -12,7 +12,9 @@
 - https://github.com/hfiref0x/UACME    //C。基于Failure-Free Method(FFM)绕过Windows用户帐户控制方法，支持多版本操作系统。
 - https://github.com/sailay1996/UAC_Bypass_In_The_Wild    //利用Windows store bypass uac。
 - https://github.com/St0rn/Windows-10-Exploit    //PY,msf插件。win10 UacByPass。
-## Bypass防护设备
+- https://github.com/swagkarna/Defeat-Defender    //Bat。利用“篡改保护”绕过Windows defender执行命令。
+
+## 绕过防护Bypass
 - https://github.com/AMOSSYS/Fragscapy    //Py。防火墙fuzz绕过bypass
 - https://github.com/milo2012/ipv4bypass    //利用ipV6地址绕过waf
 - https://github.com/3xp10it/bypass_waf    //防火墙绕过脚本
@@ -25,7 +27,8 @@
 - https://mp.weixin.qq.com/s/QJeW7K-KThYHggWtJ-Fh3w    //公众号：网络层绕过IDS/IPS的一些探索。分片传输，通过ipv6绕过ids/ips
 - https://github.com/al0ne/Nmap_Bypass_IDS    //Nmap&Zmap特征识别，绕过IDS探测。
 - https://github.com/kirillwow/ids_bypass    //IDS Bypass 脚本
-## 远程协助
+
+# 远程协助
 - https://www.thec2matrix.com/    //C2框架远控评测
 - https://git.coding.net/ssooking/cobaltstrike-cracked    //OracleJava8。cobalt strike是一个APT协同工作平台，支持自定义域名host头绕过安全设备。greatjob。G:/Freakboy/CobaltStrike //源码;G:/rsmudge/armitage CobaltStrike社区版调用msf;G:/RASSec/Cobalt-Strike //3.14 Malleable-C2-Profiles;--
 ## C2通讯框架
@@ -59,10 +62,10 @@
 - https://github.com/tiagorlampert/CHAOS    //Go。跨平台TCP远程控制。welljob。
 - https://github.com/n1nj4sec/pupy    //Py。Windows、Linux、OSX、Android跨平台多session。welljob。G:/nathanlopez/Stitch;G:/vesche/basicRAT;--
 - https://github.com/its-a-feature/Mythic    //Py。Linux下跨平台远控。goodjob。
-- https://github.com/cbrnrd/Kumo    //Java。基于jre环境的跨平台后门，一键编译界面GUI。G:/ThatcherDev/BetterBackdoor;G:/BlackHacker511/BlackRAT;--
+- https://github.com/cbrnrd/Kumo    //Java。基于jre环境的跨平台后门，一键编译，界面GUI。G:/ThatcherDev/BetterBackdoor;G:/BlackHacker511/BlackRAT;--
 - https://github.com/zerosum0x0/koadic    //Py3。基于JScript/VBScript的大宝剑远控，多版本系统支持内存加载shell。GOODJOB。G:/shelld3v/JSshell/;--
-- https://krober.biz/misc/reverse_shell.php?ip=127.0.0.1&port=8080/    //反弹shell命令生成器，利用pty、socat反弹交互式终端。G:/andrew-d/static-binaries/tree/master/socat;G:/sameera-madushan/Print-My-Shell;--
-- https://github.com/WangYihang/Platypus    //Go。反弹shell管理工具。
+- https://krober.biz/misc/reverse_shell.php?ip=127.0.0.1&port=8080/    //反弹shell命令生成器，利用pty、socat反弹交互式终端。G:/andrew-d/static-binaries/tree/master/socat;G:/sameera-madushan/Print-My-Shell;G:/WangYihang/Platypus;--
+- 
 - https://github.com/BenChaliah/Arbitrium-RAT    //Py。Android、Windows、Linux三端远控。P:Arbitrium-WebApp;--
 ### Windows远程协助
 - https://github.com/peterpt/fuzzbunch    //Py3。方程式NSA漏洞利用远控RAT，配有自动化安装脚本与界面GUI。永恒之蓝、永恒浪漫、永恒冠军、双星脉冲。
@@ -89,7 +92,8 @@
 - http://droidjack.net/    //商业版。
 - https://github.com/AhMyth/AhMyth-Android-RAT    //Smali。Android平台一对多带界面。goodjob。
 - https://github.com/The404Hacking/AndroRAT    //Java。Android平台一对多带界面。
-- https://github.com/home-assistant/home-assistant    //Py。物联网管理集群控制平台
+- https://github.com/cleverbao/520apkhook    //对安卓APP注入MSF PAYLOAD，并且对手机管家进行BYPASS。
+- https://github.com/home-assistant/home-assistant    //Py。物联网管理集群控制平台。
 ### 僵木蠕远程协助
 - https://github.com/panda-re/lava    //批量恶意程序注入
 - https://github.com/malwaredllc/byob    //僵尸网络生成框架
@@ -148,12 +152,12 @@
 - https://github.com/phra/PEzor    //CobaltStrike插件。基于Mingw-w64的PE文件加壳过杀软。
 ### 文件混淆免杀
 - https://github.com/1y0n/AV_Evasion_Tool    //C#。掩日免杀执行器二进制、shellcode，配合`tdm64-gcc`生成。界面GUI。G:/TheWover/donut;--
-- https://github.com/lengjibo/FourEye    //FourEye 重明免杀工具
+- https://github.com/lengjibo/FourEye    //FourEye 重明免杀工具。
 - https://github.com/9aylas/Shortcut-Payload-Generator    //快捷方式(.lnk)文件Payload生成器，AutoIt编写。
 - https://github.com/pasahitz/regsvr32    //C#。使用C#+Empire实现最小体积免杀后门。
 - https://github.com/Cn33liz/StarFighters    //基于DotNetToJScript，利用JavaScript和VBScript执行Empire Launcher。G:/mdsecactivebreach/CACTUSTORCH;--
 - https://github.com/BinaryScary/NET-Obfuscate/    //C#。混淆.Net Framework程序。G:/0xd4d/dnlib;--
-- https://github.com/unixpickle/gobfuscate/    //Go。加密二进制文件混淆软件包。
+- https://github.com/unixpickle/gobfuscate/    //Go。加密二进制文件，混淆软件代码，清除Go编译时自带的信息。G:/burrowers/garble;G:/boy-hack/go-strip;--
 - https://github.com/hlldz/SpookFlare    //Py。客户端与网络端策略绕过 msf/empire/koadic生成加载混淆免杀。
 - https://github.com/hack2fun/BypassAV    //Cobaltstrike插件。基于`go build`生成免杀可执行文件。
 - https://github.com/danielbohannon/Invoke-DOSfuscation/    //PS。cmd命令混淆。
@@ -175,6 +179,7 @@
 - https://github.com/PowerShellMafia/PowerSploit    //PS。内网利用框架。反病毒特征码查询、DLL注入脚本、编码加密、记录窃取、权限维持、Windows提权、端口扫描。goodjob。Github:/PowerView;Github:/PowerUp;Github:/PowerTools;Github:/Shell-Suite;Github:/Misc-Powershell-Scripts;--
 - https://github.com/rootm0s/WinPwnage    //UAC绕过、权限提升、权限维持。goodjob。
 - https://github.com/quentinhardy/pytmipe    //Python功能库。令牌操作与权限提升。
+- https://github.com/lengjibo/NetUser    //使用windows api添加用户，可用于net无法使用时.分为nim版，c++版本，RDI版，BOF版。
 ### Windows横向移动
 - http://www.oxid.it/cain.html    //Cain & Abel。2017 4.9.56 NoUpdate。
 - https://mp.weixin.qq.com/s/OGiDm3IHBP3_g0AOIHGCKA    //公众号：红蓝对抗之Windows内网渗透
@@ -190,6 +195,7 @@
 - https://github.com/QAX-A-Team/sharpwmi    //C#。基于rpc 135端口的横向移动工具，具有上传文件和执行命令功能。
 - https://github.com/Mr-Un1k0d3r/SCShell    //跨平台基于ChangeServiceConfigA远程调用无文件横向移动工具。goodjob。
 - https://github.com/GhostPack/Rubeus    //C#。Kerberos功能库。G:/gentilkiwi/kekeo //PTK(Pass the ticket);--
+- https://github.com/SkewwG/domainTools    //C,C++。内网域渗透资源约束委派。
 ### Windows凭证利用
 - https://github.com/gentilkiwi/mimikatz    //C。Windows下获取权限、进入调试模式、注入lsass进程内容获取hash密码、获取凭证，进行横向移动PTH/PTK。GREATJOB。
 - https://www.freebuf.com/articles/web/176796.html    //TechTeach。九种姿势运行Mimikatz
@@ -229,7 +235,7 @@
 ### Linux密钥收集
 - https://github.com/huntergregal/mimipenguin    //C。Linux密码抓取。
 - https://www.cnblogs.com/KevinGeorge/p/12937328.html/    /intro。Linux内存凭据提取mimipenguin。
-- https://github.com/mthbernardes/sshLooter    //ssh服务用户名密码窃取。
+- https://github.com/mthbernardes/sshLooter    //ssh服务用户名密码窃取。'ssh knowhost免登录'
 
 ## 提权利用
 - https://github.com/euphrat1ca/security_w1k1/blob/master/wiki_vul.md/    //相关提权漏洞。myWiki

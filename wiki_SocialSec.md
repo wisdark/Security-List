@@ -1,10 +1,3 @@
-# 数字水印
-- https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools    //Chrome开发者工具中文手册
-- https://github.com/saucxs/watermark-dom    //基于DOM对象实现的BS系统的水印
-- https://github.com/fire-keeper/BlindWatermark    //py。数字水印盲水印图片保护。
-- https://github.com/rohitrango/automatic-watermark-detection/    //Py。自动检测去水印。
-- https://github.com/thinkst/canarytokens    //Py。重要文件的追踪溯源，信标定位（canarytokens.org/generate#）服务端代码。蜜标。
-
 # 社会工程
 - https://github.com/azizaltuntas/Camelishing    //Py3。社会工程学攻击辅助工具。WEBGUI。
 - https://github.com/threatexpress/domainhunter    //通过bluecoat分类和`Archive.org`历史记录检查过期域名，选择钓鱼和C2域名。
@@ -20,6 +13,10 @@
 - https://github.com/maxchehab/CSS-Keylogging    //Chrome扩展程序。Express服务器利用CSS进行键盘记录。
 ### 社工库查询
 - https://github.com/kallydev/privacy    //数据结构化查询。
+### 虚拟身份
+- https://www.fakenamegenerator.com/    //多国身份信息模拟器
+- https://github.com/gh0stkey/RGPerson    //Py。随机身份生成脚本
+- https://xbeginagain.github.io/generator/    //编号生成器，身份证、营业执照、组织机构代码、统一社会信用代码、手机号、银行卡账号
 
 ## 钓鱼框架
 - https://github.com/bhdresh/SocialEngineeringPayloads    //负责收集用于证书盗窃和鱼叉式网络钓鱼攻击的社交工程技巧和payloads
@@ -29,7 +26,7 @@
 - https://github.com/thelinuxchoice/blackeye    //Py。拥有facebook、instagram等三十余个钓鱼模板的一键启用工具。
 - https://github.com/M4cs/BlackEye-Python    //Py。基于blackeye增加子域名模拟伪造功能。
 - https://github.com/gophish/gophish    //Go。拥有在线模板设计、发送诱骗广告等功能的钓鱼系统。G:/L4bF0x/PhishingPretexts;--
-- https://github.com/euphrat1ca/SpoofWeb    //PHP。通过nginx反代一键部署office365、outlook、coremail、深信服等https钓鱼网站模板。
+- https://github.com/euphrat1ca/SpoofWeb    //PHP。通过nginx反代一键部署office365、outlook、coremail、深信服等https钓鱼网站模板。G:/GemGeorge/SniperPhish;--
 - https://github.com/thelinuxchoice/lockphish    //shell,PHP。基于ngrok利用钓鱼网站获取锁屏密码（手机、电脑）。
 - https://github.com/r00tSe7en/Flash-Pop    //flash更新弹窗伪造。goodjob。
 ### 网站克隆
@@ -109,7 +106,7 @@ W:ns4gov.000webhostapp.com;W:smtp2go.com/;--
 - https://github.com/leitbogioro/Fuck_Aliyun    //关闭阿里云监控服务
 - https://www.anquanke.com/post/id/195011    //暗度陈仓：基于国内某云的 Domain Fronting 技术实践。CDN域前置。
 - https://www.freebuf.com/sectool/232555.html    //利用Cloudflare Worker来隐藏C2基础设施。CDN域前置。G:/Berkeley-Reject/workers-proxy;--
-- https://www.anquanke.com/post/id/220868    //TechTeach。利用heroku（容器云平台）隐藏C2服务器
+- https://www.anquanke.com/post/id/220868    //TechTeach。利用heroku（容器云平台）隐藏C2服务器。
 ### 隐匿流量洋葱路由
 - https://www.torproject.org/    //洋葱浏览器。P:/dnmugu4755642434.onion/ kilos搜索引擎;--
 - https://github.com/globaleaks/Tor2web    //darkweb暗网代理服务器，将onion的服务变为普通的服务
@@ -120,8 +117,8 @@ W:ns4gov.000webhostapp.com;W:smtp2go.com/;--
 - https://github.com/NullArray/NetSet    //Bash。终端多路复用器，其会话通过Tor路由，并通过自动安装和配置DNSCrypt-proxy来保护DNS流量。
 
 ## 主动防御
-- https://tom0li.github.io/反制攻击队和防守人员/    //防守反击
-- Bot扫描肉鸡->捕获IP->捕获payload->反向回打
+- https://tom0li.github.io/反制攻击队和防守人员/    //防守反制
+- Bot扫描肉鸡->捕获IP->捕获payload->防守反击
 ### 主动反制识别
 - https://github.com/cnrstar/anti-honeypot    //Chrome插件。检测WEB蜜罐并阻断请求
 - https://github.com/iiiusky/AntiHoneypot-Chrome-simple    //Chrome插件。蜜罐检测，Jsonp漏洞防御。
@@ -136,10 +133,15 @@ W:ns4gov.000webhostapp.com;W:smtp2go.com/;--
 - https://www.anquanke.com/post/id/152339    //JSONP和CORS跨站跨域读取资源的漏洞利用（附带EXP）。JSON Hijacking实战利用多种利用方式。
 - https://github.com/gh0stkey/ahrid    //py。利用jsonp等漏洞通过分析模块对黑客画像溯源。
 - https://github.com/jonasstrehle/supercookie    //利用favicon进行F-Cache读取，构建唯一ID。
+- 使用javascript确认对方是否开burpsuite    //img标签遍历burpsuite的favicon.ico文件，遍历“http:burp”
+- https://github.com/NS-Sp4ce/MoAn_Honey_Pot_Urls    //社交蜜罐JSonp劫持所需API
 ### 攻击反制利用
 - https://medium.com/tenable-techblog/reverse-shell-from-an-openvpn-configuration-file-73fd8b1d38da    //Intro。从OpenVPN配置文件中创建反弹Shell实现用户系统控制。W:freebuf.com/articles/terminal/175862.html;--
 - https://www.exploit-db.com/exploits/38847    /如何优雅的反击扫描你网站的黑客。CVE-2015-4027,Acunetix WVS 10 - Local Privilege Escalation本地提权漏洞。
 - https://blog.csdn.net/ls1120704214/article/details/88174003    //Go。反击mysql蜜罐。利用MySQL LOCAL INFILE读取客户端文件漏洞分析并使用Golang编写简易蜜罐;从MySQL出发的反击之路;Github:/MysqlT，支持大文件无损传输，支持用户验证，支持自定义的 Mysql 版本，随机的盐加密，加上用户验证，让攻击者毫无察觉;Github:/Rogue-MySql-Server;--
+- https://github.com/qigpig/MysqlHoneypot    //Py。利用mysql读取文件。P:『红蓝对抗』利用蜜罐获取攻击者微信ID及手机号
+ //1、从C:/Windows/PFRO.log中读取用户名；2、从C:/Users/用户名/Documents/WeChat Files/All Users/config/config.data中读取wx_id；3、从C:/Users/用户名/Documents/WeChat Files/wx_id/config/AccInfo.dat中读取微信绑定的手机号；4、根据 wx_id【'weixin://contacts/profile/'+wxid】可生成微信二维码用于可添加好友，根据实际测试，就算关掉了所有好友申请条件，仍可通过此二维码发起好友申请。
 - https://www.freebuf.com/articles/system/232669.html    //内网Kerberos用户蜜罐。
 - https://www.cnblogs.com/k8gege/p/12390265.html    //看我如何模拟Cobalt Strike上线欺骗入侵者。
 - https://www.4hou.com/posts/Xnvk    //Win 10主题可以用来窃取密码，微软拒绝修复。
+- https://mp.weixin.qq.com/s/7bbdHCCtS_7fsXFFW1LprQ    //XMind 2021 11.0 Beta 1 XSS漏洞导致命令执行
