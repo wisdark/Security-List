@@ -30,12 +30,14 @@
 - https://paper.seebug.org/913/    //如何打造自己的PoC框架-Pocsuite3-框架篇。simple。
 - https://github.com/lenve/javadoc    //Java企业级项目需求文档
 
-## 应用安全建设
+# 应用安全Devsecops建设
 - https://www.securitypaper.org/    //SDL建设文档。开发安全生命周期管理
 - https://github.com/Hygieia/Hygieia    //JS。Capitalone银行开源的DevOps利器
 - https://snyk.io/    //无服务器，环境漏洞检测。SDL建设。G:/snyk/snyk;--
 - https://www.fooying.com/from_sdl_to_devsecops_security_in_dev/    //从SDL到DevSecOps：始终贯穿开发生命周期的安全
 - https://mp.weixin.qq.com/s/STBzFf-NtfbDEA5s9RBdaw    //公众号：秦波 大型互联网应用安全SDL体系建设实践
+
+## 安全开发建设
 ### Java安全开发
 - https://github.com/FallibleInc/security-guide-for-developers    //安全开发规范，实用性开发人员安全须知。
 - https://gitee.com/9199771/sec_coding/blob/master/sec_coding.md    //Java安全编码规范-1.0.1 by k4n5ha0
@@ -51,6 +53,8 @@
 - https://search.freebuf.com/search/?search=    //OWASP Top 10 2017 10项最严重的 Web 应用程序安全风险
 ### 供应链安全
 - https://github.com/visma-prodsec/confused    //go。依赖包漏洞检测
+### 错误诊断
+- https://github.com/alibaba/arthas    //Java诊断工具
 
 ## 安全运维建设
 - https://github.com/aqzt/kjyw    //快捷运维，代号kjyw，项目基于shell、python，运维脚本工具库，收集各类运维常用工具脚本，实现快速安装、快速配置策略等。安全专题
@@ -74,6 +78,7 @@
 - https://github.com/mockoon/cli    //图形化api mock快速搭建工具。
 - https://www.postman.com/    //API接口调试助手，一键生成demo代码。W:hookbin.com/;P:HACKBAR;--
 ### 运维管理
+- https://github.com/Tencent/bk-job    //Java。蓝鲸作业平台（Job）脚本管理系统
 - https://github.com/jumpserver/jumpserver    //Python3。开源堡垒机跳板机。
 - https://github.com/zhaojh329/rtty    //C。web堡垒机，终端访问。
 - https://github.com/prometheus/prometheus    //Go。Google BorgMon监控系统的开源版本，支持通过配置文件、文本文件、Zookeeper、Consul、DNS SRV Lookup等方式指定抓取目标。
@@ -114,8 +119,9 @@
 ### Kubernetes集群安全
 - https://github.com/aquasecurity/kube-hunter    //Py。采用了KHV + 数字进行漏洞编号，云原生环境Kubernetes框架漏洞扫描工具。W:info.aquasec.com/kubernetes-security;--
 - https://github.com/inguardians/peirates    //Go。Kubernetes集群的渗透测试工具，专注于权限提升和横向移动。
-- https://github.com/kabachook/k8s-security/    //bash,Py。Kubernetes安全集合。
-- https://github.com/aquasecurity/kube-bench    //Go。Kubernete安全检测工具`cisecurity.org/benchmark/kubernetes/`基线测试。
+- https://github.com/kabachook/k8s-security/    //bash,Py。k8s安全配置。
+- https://github.com/aquasecurity/kube-bench    //Go。k8s安全基线测试工具。W:cisecurity.org/benchmark/kubernetes;--
+- https://mp.weixin.qq.com/s/a7EtloE3guwfsRXD1m7IHg    //k8s sec 简易指南（攻击面及加固）
 ### 亚马逊AWS安全相关
 - https://github.com/RhinoSecurityLabs/Cloud-Security-Research    //Py。AWS云安全研究工具集。G:/toniblyx/my-arsenal-of-aws-security-tools;
 - https://github.com/RhinoSecurityLabs/pacu    //亚马逊AWS漏洞检测框架
@@ -173,7 +179,7 @@
 - https://github.com/foryujian/ipintervalmerge    //IP合并区间。
 ### 测试总结报告
 - https://github.com/gh0stkey/PoCBox    //PHP。漏洞测试验证/报告生成平台。SONP劫持、CORS、Flash跨域资源读取、Google Hack语法生成、URL测试字典生成、JavaScript URL跳转、302 URL跳转
-- https://github.com/pwndoc/pwndoc    //Vue.js。安全服务渗透测试报告生成。G:/bugsafe/WeReport;G:/blacklanternsecurity/writehat;--
+- https://github.com/pwndoc/pwndoc    //Vue.js。安全服务渗透测试报告生成。G:/bugsafe/WeReport;G:/blacklanternsecurity/writehat;P:HTMLTestRunner;--
 
 ## 基线核查List
 - https://downloads.cisecurity.org/#/    //CIS-Benchmark基线手册 200+。greatjob。
@@ -192,9 +198,8 @@
 - https://github.com/juliocesarfort/public-pentesting-reports    //由几家咨询公司和学术安全组织发布的公共渗透测试报告的列表。
 - http://pentestmonkey.net/category/cheat-sheet    //渗透测试常见条目
 - https://github.com/0xRadi/OWASP-Web-Checklist    //owasp网站检查条目
-- https://mp.weixin.qq.com/s/O36e0gl4cs0ErQPsb5L68Q    //公众号：区块链、以太坊智能合约审计 CheckList
-- https://github.com/slowmist/eos-bp-nodes-security-checklist    //区块链，EOS bp nodes security checklist（EOS超级节点安全执行指南）
 - https://blog.csdn.net/qq_39541626/article/details/104891590    //TecTeach。小程序、公众号安全测试list。
+- https://www.jianshu.com/p/8253adac33d8    //渗透测试 Node.js 应用
 - https://xz.aliyun.com/t/2089    //金融科技SDL安全设计checklist。
 - https://github.com/tonghuaroot/Awesome-macOS-Red-Teaming    //macos测试条例
 ### 安全测试速查表
@@ -211,16 +216,21 @@
 - tornado.cash    //链上混币器
 - https://wallet.trezor.io/    //热钱包，imtoken、tokpocket、onekey、metamask
 - https://github.com/xianlimei/yiwei.github.io/wiki    //私有云、区块链安全研究，rasp、waf、主机安全产品介绍
+- https://mp.weixin.qq.com/s/dHhMRtQP1GZ_juWTaIjzmA    //慢雾余弦:区块链生态安全是一场真枪实弹的战争
+### 区块链安全分析
+- https://github.com/quoscient/octopus    //区块链智能合约安全分析工具
+- https://github.com/ConsenSys/mythril-classic    //以太坊智能协议区块链安全分析工具。
+- https://github.com/dmuhs/teatime    //Py3。针对区块链节点信息泄露、开放账号、配置篡改的RPC渗透框架
+- https://mp.weixin.qq.com/s/O36e0gl4cs0ErQPsb5L68Q    //公众号：区块链、以太坊智能合约审计 CheckList
+- https://github.com/slowmist/eos-bp-nodes-security-checklist    //区块链，EOS bp nodes security checklist（EOS超级节点安全执行指南）
+### 区块链checklist
 - https://www.freebuf.com/articles/blockchain-articles/176668.html    //空手套白狼？USDT 假充值逻辑缺陷漏洞利用分析，基于合约恶意授权获取用户支付权限。P:二维码盗 usdt 安全事件分析;--
 - https://paper.seebug.org/1546/    //智能合约漏洞系列 -- 运行平台科普篇
 - https://paper.seebug.org/1580/    //智能合约安全系列——EOS 菠菜应用篇
 - https://paper.seebug.org/1545/    //智能合约安全系列——百万合约之母以太坊的漏洞攻防术（下集）
 - https://mp.weixin.qq.com/s/ZxrBHgZ5a_IuU0nNySIlwA    //智能合约安全系列 -- 举一反三总结篇
 - https://mp.weixin.qq.com/s/MVsF9P7hpnncf9cHuTQ_iA    //以太坊智能合约中的社会工程攻击
-- https://mp.weixin.qq.com/s/dHhMRtQP1GZ_juWTaIjzmA    //慢雾余弦:区块链生态安全是一场真枪实弹的战争
-- https://github.com/quoscient/octopus    //区块链智能合约安全分析工具
-- https://github.com/ConsenSys/mythril-classic    //以太坊智能协议区块链安全分析工具。
-- https://github.com/dmuhs/teatime    //Py3。针对区块链节点信息泄露、开放账号、配置篡改的RPC渗透框架
+
 ## IPv6安全建设
 - https://github.com/sfan5/fi6s    //ipv6端口快速扫描器
 - https://github.com/fgont/ipv6toolkit    //C。si6networks.com组织的ipv6工具集
@@ -228,8 +238,7 @@
 ## 人工智能安全
 - https://github.com/Azure/counterfit/    //python。自动化测试人工智能AI模型
 ## 零信任建设
-- https://zhuanlan.zhihu.com/p/101989442    //5分钟了解谷歌BeyondCorp零信任安全模型。P:Airbnb的零信任架构实战案例
-;--
+- https://zhuanlan.zhihu.com/p/101989442    //5分钟了解谷歌BeyondCorp零信任安全模型。P:Airbnb的零信任架构实战案例;--
 
 ## 合规建设
 - https://github.com/momosecurity/bombus    //Vue,Py。依据为SOX法案陌陌开源的安全合规审计平台
