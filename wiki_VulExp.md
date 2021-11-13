@@ -24,8 +24,8 @@
 - https://shuimugan.com    //2016/06/24 13:25之前乌云Drops文章、漏洞公开详情。W:0day.life;W:bugreader.com    //国外厂商公开漏洞详情。
 - https://blog.intigriti.com    //intigriti公司bug bounty文章和公开漏洞详情
 - https://hackerone.com/hacktivity    //HACKER ONE公开漏洞详情
-- https://dvpnet.io/lddt    //DVP去中心化漏洞平台公开漏洞详情，区块链应用。
-- https://sec.ly.com/bugs    //同程安全公开漏洞详情，旅途应用。
+- https://dvpnet.io/lddt    //DVP去中心化区块链漏洞平台公开漏洞详情
+- https://sec.ly.com/bugs    //同程安全公开漏洞详情
 - https://zeroday.hitcon.org/vulnerability/    //台湾漏洞公开库。
 - https://github.com/xiangpasama/JDSRC-Small-Classroom    //京东SRC小课堂系列文章，电商应用。
 ## 软硬固应用漏洞
@@ -229,7 +229,7 @@
 - https://github.com/padovah4ck/CVE-2020-0683    //C++。利用伪造MSI重写DACL访问控制列表、任意文件覆盖重写。
 ### Windows命令执行RCE
 - https://github.com/jiansiting/cve-2020-16898    //CVE-2020-16898 (bad neighbor) ICMPv6 Windows TCP/IP远程代码执行。
-- https://github.com/danigargu/CVE-2020-0796    //C。CVE-2020-0796 - Windows SMBv3 LPE exploit #SMBGhost RCE&LPE。goodjob。G:/ollypwn/SMBGhost;G:/jiansiting/CVE-2020-0796;G:/chompie1337/SMBGhost_RCE_PoC;--。
+- https://github.com/ZecOps/CVE-2020-0796-RCE-POC    //Python。Win10以下永恒之黑 - Windows SMBv3 LPE exploit #SMBGhost RCE&LPE。goodjob。G:/ollypwn/SMBGhost;G:/jiansiting/CVE-2020-0796;G:/chompie1337/SMBGhost_RCE_PoC;G:/danigargu/CVE-2020-0796;--。
 - https://github.com/rapid7/metasploit-framework/pull/12283/    //CVE-2019-0708,四个文件进行BlueKeep漏洞利用，目前支持win7sp1/win2k8sr。msf插件。G:/coolboy4me/cve-2019-0708_bluekeep_rce //增加xp/03;G:/MS08-067;--
 - https://github.com/3gstudent/Smbtouch-Scanner    //Py。MS17-010方程式永恒之蓝ETERNAL 445 SMB漏洞检测。
 - https://github.com/hanshaze/MS17-010-EternalBlue-WinXP-Win10    //ms17010 winxp-win10全版本利用。
@@ -238,6 +238,7 @@
 ### Windows提权利用LPE
 - https://github.com/SecWiki/windows-kernel-exploits    //Windows平台提权漏洞Exp集合。P:/kerberos域控ms14‐068/;G:/51x/WHP;G:/ianxtianxt/win-exp-/;G:/lyshark/Windows-exploits;--
 - https://github.com/Ascotbe/Kernelhub    //Windows 提权漏洞合集，附带编译环境，演示GIF图，漏洞详细信息，可执行文件。goodjob。
+- https://github.com/antonioCoco/RemotePotato0    //利用DCOM激活服务，从一个普通用户提权至域管理员权限。
 - https://github.com/lawrenceamer/0xsp-Mongoose    //PHP。提权枚举工具包，通过webApi上报信息。
 - https://github.com/KaLendsi/CVE-2021-1732-Exploit    //C++。由函数win32kfull!xxxCreateWi ndowEx 对应用层回调返回数据校验不严导致，本地用户执行漏洞利用程序获取系统权限。
 - https://github.com/dirkjanm/CVE-2020-1472    //NetLogon特权提升漏洞，一键域控提权。配合多个py文件set_empty_pw清空域控密码-secretsdump下载域控哈希secretsdump-restorepassword利用域管hash导出sam数据库原先哈希密码。G:/risksense/zerologon;G:/SecuraBV/CVE-2020-1472;--

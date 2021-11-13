@@ -61,6 +61,8 @@
 - https://github.com/openspug/spug/    //JS,Py。轻量级无Agent的自动化运维平台，整合了主机管理、主机批量执行、主机在线终端、文件在线上传下载、应用发布部署、在线任务计划、配置中心、监控、报警等功能。
 - https://github.com/ngbdf/redis-manager    //Java。Redis 一站式管理平台，支持集群的监控、安装、管理、告警以及基本的数据操作。
 - https://zhuanlan.zhihu.com/p/43716885/    //使用knockd管理高危端口。
+### 自动化运维
+- https://github.com/n8n-io/n8n    //工作流自动化工具
 ### ACL策略权限
 - https://github.com/canix1/ADACLScanner    //Powershell3。AD域的DACLs、SACLs报表生成。
 - https://github.com/cahi1l1yn/aclAuditor/    //Py。网络设备ACL策略隐患审计，支持华为、华三、思科、锐捷等主流品牌的路由、交换、防火墙。
@@ -76,7 +78,7 @@
 - https://github.com/star7th/showdoc    //JS。开发文档、接口管理平台。
 - https://github.com/ymfe/yapi    //JS。可本地部署的、打通前后端及QA的、可视化的接口管理平台。goodjob。
 - https://github.com/mockoon/cli    //图形化api mock快速搭建工具。
-- https://www.postman.com/    //API接口调试助手，一键生成demo代码。W:hookbin.com/;P:HACKBAR;--
+- https://www.postman.com/    //API接口调试助手，一键生成demo代码，支持通过js插件进行测试。W:hookbin.com/;P:hackbar;P:CryptoJS;P:forgeJS;--
 ### 运维管理
 - https://github.com/Tencent/bk-job    //Java。蓝鲸作业平台（Job）脚本管理系统
 - https://github.com/jumpserver/jumpserver    //Python3。开源堡垒机跳板机。
@@ -90,6 +92,8 @@
 - https://github.com/bunkerity/bunkerized-nginx    //nginx安全镜像docker一键配置。
 - https://github.com/trimstray/nginx-admins-handbook    //nginx操作手册。8k
 - https://github.com/valentinxxx/nginxconfig.io/    //在线nginx配置文件生成，W:nginxconfig.io;--
+### 常见软件技巧
+- https://www.gnu.org/software/parallel/    //Linux并行执行shell命令。awk;grep;--
 
 ## 办公网安全建设
 - https://github.com/sgabe/SymlinkProtect    //Windows的文件系统微型过滤器驱动程序，用于阻止符号链接攻击。
@@ -214,7 +218,7 @@
 - https://www.chainnews.com/    //链闻，系统化学习区块链知识。
 - https://github.com/dvf/blockchain    //用Python从零开始创建区块链
 - tornado.cash    //链上混币器
-- https://wallet.trezor.io/    //热钱包，imtoken、tokpocket、onekey、metamask
+- https://wallet.trezor.io/    //热钱包 imtoken、tokpocket、onekey、metamask小狐狸
 - https://github.com/xianlimei/yiwei.github.io/wiki    //私有云、区块链安全研究，rasp、waf、主机安全产品介绍
 - https://mp.weixin.qq.com/s/dHhMRtQP1GZ_juWTaIjzmA    //慢雾余弦:区块链生态安全是一场真枪实弹的战争
 ### 区块链安全分析
@@ -242,6 +246,7 @@
 
 ## 合规建设
 - https://github.com/momosecurity/bombus    //Vue,Py。依据为SOX法案陌陌开源的安全合规审计平台
+- https://mp.weixin.qq.com/s/uD8xZse3TLH7vjzJOp_kxw    //网信办、工信部教我做产品！W:note.youdao.com/s/K4vFx4Ki //网信办、工信部学习资料（欢迎收藏备用）
 ### 等保安全
 - https://mp.weixin.qq.com/s/gcohsAQSHHCVoG-HlYYaeg    //公众号：等级保护测评方法（精华版）
 - https://github.com/paradiseduo/ApplicationScanner    //Python。移动端App等保测试工具。

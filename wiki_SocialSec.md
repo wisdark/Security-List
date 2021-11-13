@@ -28,12 +28,13 @@
 - https://github.com/gophish/gophish    //Go。拥有在线模板设计、发送诱骗广告等功能的钓鱼系统。G:/L4bF0x/PhishingPretexts;--
 - https://github.com/euphrat1ca/SpoofWeb    //PHP。通过nginx反代一键部署office365、outlook、coremail、深信服等https钓鱼网站模板。G:/GemGeorge/SniperPhish;--
 - https://github.com/thelinuxchoice/lockphish    //shell,PHP。基于ngrok利用钓鱼网站获取锁屏密码（手机、电脑）。
-- https://github.com/r00tSe7en/Flash-Pop    //flash更新弹窗伪造。goodjob。
+- https://github.com/xiecat/goblin    //Go。一键钓鱼演练工具，如flash弹窗更新伪造。G:/r00tSe7en/Flash-Pop;--
 ### 网站克隆
 - http://www.httrack.com    //网站克隆镜像
 - https://github.com/JonCooperWorks/judas    //Go。克隆网站钓鱼
 - https://github.com/Rvn0xsy/Pricking    //网站反代钓鱼，敏捷启动，js功能插件。
 ### 邮件伪造
+- https://github.com/SkewwG/henggeFish    //Go。自动化批量发送钓鱼邮件（横戈安全团队出品）
 - https://mp.weixin.qq.com/s/RPz_1kKuq5--IANwT_Qvvg    //眼见不一定为实：对电子邮件伪造攻击的大规模分析。发件人策略框架（SPF）、域名密钥识别标准（DKIM）和基于域的消息验证、报告和一致性（DMARC）、UI保护机制 绕过。
 - https://github.com/n0pe-sled/Postfix-Server-Setup    //自动化建立一个网络钓鱼服务器，Postfix/Sendmail邮件系统。
 - https://emkei.cz    //在线邮件伪造，SPF&DKIM&DMARC协议多功能模拟。W:tool.chacuo.net/mailanonymous;--
@@ -43,13 +44,12 @@ W:ns4gov.000webhostapp.com;W:smtp2go.com/;--
 - https://www.ehpus.com/post/smtp-injection-in-gsuite/    //基于smtp注入的邮件欺骗。
 ### 服务密码爆破
 - https://github.com/euphrat1ca/Fast-RDP-Brute-GUI-v2.0-by_Stas-M--Official/    //RDP密码爆破、扫描，Fast RDP Brute GUI by Stas M（解压密码Stas'M Corp）。W:stascorp.com;P:nlbrute 1.2;P:DUBrute;P:御剑RDP爆破工具v2.0;G:/7kbstorm/7kbscan-RDP-Sniper;P:Paessler SNMP Tester;--
-- https://github.com/shack2/SNETCracker    //C#。超级弱口令检查工具，支持SSH、RDP、MySQL等常见协议。
+- https://github.com/shack2/SNETCracker    //C#。超级弱口令检查工具，支持SSH、RDP、MySQL等常见协议。.G:/lijiejie/htpwdScan;--
 - https://github.com/3gstudent/SharpRDPCheck    //C#。RDP爆破验证，支持ntlm登录验证。G:/najachai/RDPUploader;--
 - https://github.com/ShawnDEvans/smbmap    //py。利用smb服务传递哈希、增删改查、命令执行、ip段共享枚举等。G:/m4ll0k/SMBrute;--
 - https://github.com/InfosecMatter/Minimalistic-offensive-security-tools    //ps。smb、ad域密码爆破。
-- https://github.com/nmap/ncrack    //C。Nmap协议弱口令爆破组件。
-- https://github.com/vanhauser-thc/thc-hydra    //C。支持多种协议方式的破解与爆破.G:/scu-igroup/ssh-scanner;G:/lijiejie/htpwdScan;G:/ztgrace/changeme;G:/netxfly/crack_ssh;G:/euphrat1ca/F-Scrack;--
-- https://github.com/maaaaz/thc-hydra-windows    //C。hydra Windows版本。
+- https://github.com/nmap/ncrack    //C。Nmap协议弱口令爆破组件。G:/ztgrace/changeme;G:/netxfly/crack_ssh;G:/euphrat1ca/F-Scrack;G:/scu-igroup/ssh-scanner;--
+- https://github.com/vanhauser-thc/thc-hydra    //C。支持多种协议方式的破解与爆破。;G:/maaaaz/thc-hydra-windows--
 - https://github.com/jmk-foofus/medusa    //C。模块化端口爆破工具。G:/awake1t/PortBrute;--
 - https://github.com/lanjelot/patator    //Py3。集成Hydra, Medusa, Ncrack, Metasploit modules and Nmap NSE验证爆破工具。
 - https://github.com/galkan/crowbar    //Py。支持openvpn、rdp、ssh、vnc破解。G:/shengqi158/weak_password_detect;--

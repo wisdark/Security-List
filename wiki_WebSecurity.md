@@ -6,6 +6,7 @@
 - https://github.com/zmap/zdns    //Go。Fast CLI DNS Lookup Tool。censys三件套。
 - https://github.com/zmap/ztag    //Py。对zmap\zgrab产生的数据分析打标签。censys三件套。
 - https://github.com/w-digital-scanner/w12scan    //py3。django + elasticsearch + redis(去重+web与w12scan-client通信中间件)网络资产发现引擎，通过WEB API下发任务。boy-hack开发。
+- https://hacktech.cn/2021/10/27/net-search-platform-compare/    //网络空间检索平台对比
 ## 资产端口扫描
 - https://github.com/robertdavidgraham/masscan    //C。无状态扫描器。On Windows, or from VMs, it can do 300,000 packets/second. On Linux (no virtualization) it'll do 1.6 million packets-per-second。
 - https://paper.seebug.org/1052/    //Intro。从 Masscan, Zmap 源码分析到开发实践。扫描方式socket/libpcap/PF_RING DNA设备/ 三种介绍。
@@ -36,7 +37,7 @@
 - https://github.com/ShiHuang-ESec/EHole    //EHole(棱洞)-红队重点攻击系统指纹探测工具，fofa api。goodjob。
 - https://github.com/HA71/WhatCMS    //Bash。基于Whatcms.org API进行CMS检测和漏洞利用脚本。
 - https://github.com/urbanadventurer/whatweb    //Ruby。Web指纹识别。goodjob。G:/Rvn0xsy/FastWhatWebSearch;G:/ggusoft/inforfinder;--
-- https://github.com/s0md3v/Arjun    //Py3。HTTP参数信息挖掘工具。simple。
+- https://github.com/zhzyker/dismap    //Go。识别 Web 指纹信息，定位资产类型。G:/s0md3v/Arjun    //Py3。HTTP参数信息挖掘工具。simple。
 - https://github.com/mozilla/ssh_scan    //服务器ssh配置信息扫描。
 - https://github.com/salesforce/jarm    //Python。识别传输层安全性（TLS）指纹，对具有相同TLS配置服务标记，集成于空间测绘资产标签。goodjob。G:/rbsec/sslscan;--
 - https://github.com/mozilla/cipherscan    //目标主机服务ssl类型识别。

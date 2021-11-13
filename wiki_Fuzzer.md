@@ -64,11 +64,14 @@
 - https://github.com/sleepybear1113/taobaoVisitingVenues    //js。双十一活动自动化地操作淘宝浏览店铺得喵币脚本 for Androidz。
 - https://github.com/hyb1996/Auto.js    //js。安卓平台上的JavaScript自动化工具。
 - https://github.com/microsoft/playwright-python    //Python自动化测试工具，支持JavaScript（TypeScript）、Python、C#和Go语言，支持有头（headful）模式和无头（headless）模式运行。
+- https://github.com/Genymobile/scrcpy    //C。基于adb通过 USB (或 TCP/IP) 连接的安卓设备，且不需要任何 root 权限，支持 GNU/Linux、Windows 和 macOS。
 ### 浏览器模拟
 - https://github.com/SeleniumHQ/selenium    //Web headless无头浏览器自动化测试。
 - https://github.com/xuyichenmo/selenium-document    //Selenium的中文文档。
 - https://www.chromium.org/    //Chrome内核，无头浏览器。G:/ariya/phantomjs/;W:miniblink.net;--
 - http://appium.io/    //iOS、Android自动化测试。UIAutomation、XCTest、KIF等。
+### 移动端测试
+- https://github.com/liriliri/eruda    //JS。移动网页前端开发调试工具。G:/Tencent/vConsole;--
 
 ## 压测泛洪
 - https://github.com/ywjt/Dshield    //Py。DDOS防护。
@@ -95,3 +98,4 @@
 - https://xz.aliyun.com/t/7895/    //techteach。利用WAF进行拒绝服务攻击。利用自动加载图片等资源文件的特性。
 - https://www.freebuf.com/column/201766.html    //techteach。正则表达式所引发的DoS攻击（Redos）。G:/superhuman/rxxr2;--
 - https://github.com/EZLippi/WebBench    //C。DDOS网站压力测试，最高并发3万
+- https://www.cuijianxiong.top/2021/03/30/暴力的攻击Dos/    //大数精度计算BigDecimal、正则匹配资源耗尽。

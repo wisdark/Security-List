@@ -57,24 +57,48 @@
 - https://github.com/sunshinev/go-sword    //Go。Web CRUD管理后台生成工具
 ### 商城框架
 - https://gitee.com/leadshop/leadshop    //php。商城系统。
-### 游戏框架
-- https://github.com/electronicarts/CnC_Remastered_Collection/    //C++。红警Red Alert，Tiberian Dawn（泰伯利亚的黎明）。
-- https://github.com/fogleman/Minecraft/    //Py。我的世界Minecraft
-- https://github.com/OpenDiablo2/OpenDiablo2    //暗黑破坏神2
 ### 桌面客户端白屏化
 - https://github.com/nativefier/nativefier    //js。web网站转本地应用程序
+
+## 游戏框架
+- http://phaser.io/    //phaser HTML5游戏框架。P:Pixi.js;--
+- https://www.layabox.com/    //HTML5游戏开发工具
+- https://www.construct.net    //HTML5游戏开发工具
+- https://github.com/egret-labs    //白鹭HTML5游戏开发引擎
+- http://hiloteam.github.io/    //支持 DOM 渲染，Canvas 渲染和 WebGL 渲染
+- https://github.com/kittykatattack/ga    //h5 2d游戏引擎。G:/straker/kontra;--
+- https://github.com/google/closure-compiler    //Js代码压缩。G:/xem/miniMinifier;--
+- https://github.com/piskelapp/piskel    //游戏像素图像制作工具
+- https://ghttps://github.com/xem/miniMusic    //游戏音效转化成 JavaScript
+### H5游戏源码
+- https://github.com/gabrielecirulli/2048
+- https://github.com/ellisonleao/clumsy-bird    //Flappy Bird
+- https://github.com/daleharvey/pacman    //吃豆先生
+- https://github.com/wwwtyro/Astray    //迷宫球
+- https://github.com/thinkpixellab/agent8ball    //桌球
+- https://github.com/mgechev/mk.js    //真人快打
+- https://github.com/NTaylorMullen/ShootR    //雷电宇宙飞船
+- https://github.com/mozilla/BrowserQuest    //多人冒险
+- https://github.com/gustaYo/vue-chess    //国际象棋
+- https://github.com/freeciv/freeciv-web    //自由文明
+### 端游游戏源码
+- https://github.com/electronicarts/CnC_Remastered_Collection/    //C++。红警Red Alert Tiberian Dawn（泰伯利亚的黎明）
+- https://github.com/fogleman/Minecraft/    //Py。我的世界Minecraft 简化版
+- https://github.com/OpenDiablo2/OpenDiablo2    //暗黑破坏神2 mod
 
 ## 编辑器IDE
 - https://www.ultraedit.com/    //全能文本代码编辑器，同公司UltraCompare内容对比软件。P:/vscode;P:/emeditor;--
 - https://github.com/visualfc/liteide    //C++。开源golang编辑器，支持交叉编译。P:jetbrains;--
 - https://github.com/rjpcomputing/luaforwindows/    //Lua。Windows下的lua编辑器。
 - https://github.com/s4n7h0/Halcyon    //Nmap Script (NSE)IDE编辑器
+- https://github.com/zhongjianhua163/BlackMoonKernelStaticLib    //黑月编译器插件的核心静态库部分的源码 易语言5.92
 ### 文件比对
 - https://github.com/WinMerge/winmerge    //C++。文件比对。P:Diff;--
 - https://github.com/joxeankoret/pigaios    //基于源代码、二进制文件比对的检测工具。
 ### 编程调试
 - https://github.com/nvbn/thefuck    //Py。Python命令行自动补全改错工具。
-- https://github.com/onelivesleft/PrettyErrors    //Python异常提示库
+- https://github.com/onelivesleft/PrettyErrors    //Python异常提示库。
+- https://github.com/cool-RR/PySnooper    //python代码调试库。
 ### 交互式终端
 - https://github.com/c-bata/go-prompt    //Golang创建交互式提示命令行。
 - https://github.com/prompt-toolkit/python-prompt-toolkit    //Python创建交互式提示命令行。
@@ -142,12 +166,18 @@
 - https://github.com/F-Stack/f-stack    //C。腾讯开源基于dpdk的高性能网络框架
 - https://github.com/pentaho/pentaho-kettle    //java。 ETL 工具，纯 Java 编写，绿色无需安装，数据抽取高效稳定(数据迁移工具)。G:/zhaxiaodong9860/kettle-scheduler 调度监控平台;G:/majinju/kettle-manager WEB端管理;--
 - https://github.com/dataease/dataease    //数据可视化分析工具。
+
 ## 深度学习
 - https://visualgo.net/    //算法库
 - https://github.com/google-research/bert    //Py。谷歌研究院最强NLP运算模型
-- https://github.com/PaddlePaddle/PaddleX    //C++,Py。百度开源飞桨深度学习框架。G:/PaddlePaddle/book;--
+- https://github.com/PaddlePaddle/PaddleX    //C++,Py。百度开源飞桨深度学习框架。G:/PaddlePaddle/book;P:PaddlePaddle/PaddleGAN;--
 - https://github.com/wangshub/RL-Stock    //Py3。使用深度学习进行量化交易
-### 机器学习
+### 视频仿真
+- https://github.com/iperov/DeepFaceLive    //人脸仿真，视频克隆
+### 音频仿真
+- https://github.com/babysor/MockingBird    //声音克隆
+
+## 机器学习
 - https://paperswithcode.com/sota    //机器学习具体项目、演示、代码
 - https://www.reddit.com/r/Python/comments/a81mg3/the_entire_mit_intro_computer_science_class_using/    //麻省理工机器学习视频
 - https://github.com/clone95/Data-Science-Study-Paths-March-2019    //以 TensorFlow 和 Scikit-learn 的机器学习框架的基础库为例，详细介绍了如何成为一名机器学习工程师
