@@ -1,5 +1,5 @@
 # 数字取证
-- http://xlysoft.net/    //SalvationDATA（效率源）取证工具。P:/ios盘古;--
+- http://xlysoft.net/    //SalvationDATA（效率源）取证工具。P:ios盘古;--
 - https://github.com/alphaSeclab/awesome-forensics    //取证相关工具和文章。收集的所有开源工具: sec-tool-list;逆向资源: awesome-reverse-engineering;网络相关的安全资源: awesome-network-stuff;攻击性网络安全资源: awesome-cyber-security;开源远控和恶意远控分析报告: awesome-rat;Webshell工具和分析/使用文章: awesome-webshell;--
 - https://github.com/laramies/metagoofil    //Py。从文件获取相关网站的用户名与邮箱等数据。documents (pdf,doc,xls,ppt,etc).
 - https://github.com/mozilla/mig    //go。火狐mozilla基金会针对海量文件的内容定位工具，支持节点分级部署。Deprecation。
@@ -74,15 +74,15 @@
 - https://github.com/Arno0x/DNSExfiltrator    //通过DoH利用dns加密请求进行数据泄露传输。
 - https://github.com/Arno0x/ReflectiveDnsExfiltrator    //反射DNS解析隐蔽通道进行数据隐蔽通道
 - https://github.com/no0be/DNSlivery    //Py3。基于scapy利用dns协议传输文件，条件简单。
-- https://github.com/TryCatchHCF/Cloakify    //躲避DLP/MLS数据泄露防护系统，突破数据白名单控制，躲避AV检测进行数据盗取
-- https://github.com/sensepost/DET    //使用单个或多个通道同时执行数据取回
+- https://github.com/TryCatchHCF/Cloakify    //躲避DLP/MLS数据泄露防护系统，突破数据白名单控制，躲避AV检测进行数据盗取。
+- https://github.com/sensepost/DET    //使用单个或多个通道同时执行数据取回。
 - https://github.com/ytisf/PyExfil    //用于数据取回的Python软件包。
-- https://github.com/christophetd/IPv6teal    //Py。利用ipv6隐蔽隧道传输数据
+- https://github.com/christophetd/IPv6teal    //Py。利用ipv6隐蔽隧道传输数据。
 ### 邮箱取证
 - https://github.com/RedLectroid/SearchOutlook/    //Outlook运行实例中关键字搜索
+- https://github.com/dafthack/MailSniper    //PS。用于在Microsoft Exchange环境搜索电子邮件查找特定邮件（密码、网络架构信息等），提供分别针对OWA接口(Outlook Web App)、EWS接口和ActiveSync接口的password spray（多用户轮番爆破防检测）。
 - https://github.com/euphrat1ca/OtherScript/blob/master/coremail_vul_check.sh    //coremail配置文件泄露导致用户导出/资产泄露/邮件伪造发送
 - https://github.com/dpu/coremail-address-book/    /go。Coremail邮件系统组织通讯录导出脚本。
-- https://github.com/dafthack/MailSniper    //PS。用于在Microsoft Exchange环境搜索电子邮件查找特定邮件（密码、网络架构信息等），提供分别针对OWA接口(Outlook Web App)、EWS接口和ActiveSync接口的password spray（多用户轮番爆破防检测）。
 ### 数据库取证
 - https://github.com/vrana/adminer/    //php。php单文件数据库下载。phpstudy。
 - https://github.com/abrignoni/DFIR-SQL-Query-Repo    //收集用于数据取证的SQL查询模板

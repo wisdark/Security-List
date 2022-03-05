@@ -9,9 +9,11 @@
 - https://github.com/d3vilbug/HackBar    //hackbar
 - https://github.com/bit4woo/knife    //Brup右键菜单增强
 - https://github.com/bit4woo/domain_hunter_pro    //目标管理、信息搜集、工具联动。testjob。
+- https://github.com/projectdiscovery/nuclei-burp-plugin    //联动nuclei一键生成poc
 ### burp协议分析
 - https://github.com/mr-m0nst3r/Burpy    //Web端JS加密算法调试解密
 - https://github.com/c0ny1/jsEncrypter    //Web前端加密协议Fuzz爆破
+- https://github.com/gh0stkey/CaA    //流量收集与分析
 ### burp防护绕过
 - https://github.com/TheKingOfDuck/burpFakeIP    //Py。IP修改伪造。
 - https://github.com/RhinoSecurityLabs/IPRotate_Burp_Extension/    //Py。使用AWS API Gateway在每个请求上更改IP访问。
@@ -104,6 +106,7 @@
 - https://github.com/ring04h/wyportmap    //调用nmap目标端口扫描+系统服务指纹识别
 - https://github.com/cloudflare/flan    //Py。cloudflare基于nmap开发的漏洞检测工具
 ### Masscan相关工具
+- https://github.com/knownsec/ksubdomain    //Go。与网卡直接交互无状态子域名爆破
 - https://github.com/offensive-security/masscan-web-ui/    //PHP。Masscan WebGui。
 
 ## Kali系统拓展插件

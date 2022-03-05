@@ -22,7 +22,6 @@
 - https://echarts.baidu.com/examples/index.html#chart-type-globe    //Echart图
 - https://book.yunzhan365.com/dksd/oyru/mobile/index.html    //基于攻击链的网络威胁捕猎架构设计原型
 - http://www.colasoft.com.cn/download/network-defense-map-2018.pdf    //科来网络攻击与防范图谱
-- https://www.anquanke.com/post/id/178339    //漏扫动态爬虫实践。pyppeteer
 - https://www.jianshu.com/p/852e0fbe2f4c    //安全产品厂商分类
 ### 产品设计文档
 - https://www.freebuf.com/sectool/135032.html/    //构建一个高交互型的难以发现的蜜罐
@@ -53,8 +52,14 @@
 - https://search.freebuf.com/search/?search=    //OWASP Top 10 2017 10项最严重的 Web 应用程序安全风险
 ### 供应链安全
 - https://github.com/visma-prodsec/confused    //go。依赖包漏洞检测
+- https://github.com/XmirrorSecurity/OpenSCA-cli    //go。扫描项目的第三方组件依赖及漏洞信息。
 ### 错误诊断
 - https://github.com/alibaba/arthas    //Java诊断工具
+
+## 低代码平台
+- https://github.com/imcuttle/mometa    //TypeScript。低代码元编程，代码可视编辑，辅助编码工具
+- https://yaoapps.com/    //Go。通过JSON的无代码开发套件。G:/YaoApp/yao;--
+- copilot.github.com    //GPT-3训练自动匹配代码结构，AI自动写代码
 
 ## 安全运维建设
 - https://github.com/aqzt/kjyw    //快捷运维，代号kjyw，项目基于shell、python，运维脚本工具库，收集各类运维常用工具脚本，实现快速安装、快速配置策略等。安全专题
@@ -63,6 +68,7 @@
 - https://zhuanlan.zhihu.com/p/43716885/    //使用knockd管理高危端口。
 ### 自动化运维
 - https://github.com/n8n-io/n8n    //工作流自动化工具
+- https://github.com/caprover/one-click-apps    //自动化部署、一键打包应用
 ### ACL策略权限
 - https://github.com/canix1/ADACLScanner    //Powershell3。AD域的DACLs、SACLs报表生成。
 - https://github.com/cahi1l1yn/aclAuditor/    //Py。网络设备ACL策略隐患审计，支持华为、华三、思科、锐捷等主流品牌的路由、交换、防火墙。
@@ -77,8 +83,8 @@
 - https://www.cnblogs.com/jurendage/p/12653865.html    //TecTeach。Java生鲜电商平台-API接口设计之token、timestamp、sign 具体架构与实现（APP/小程序，传输安全）。
 - https://github.com/star7th/showdoc    //JS。开发文档、接口管理平台。
 - https://github.com/ymfe/yapi    //JS。可本地部署的、打通前后端及QA的、可视化的接口管理平台。goodjob。
-- https://github.com/mockoon/cli    //图形化api mock快速搭建工具。
-- https://www.postman.com/    //API接口调试助手，一键生成demo代码，支持通过js插件进行测试。W:hookbin.com/;P:hackbar;P:CryptoJS;P:forgeJS;--
+- https://github.com/mockoon/cli    //图形化api mock搭建工具，api管理。
+- https://www.postman.com/    //API接口调试助手，一键生成demo代码，支持通过js插件进行测试。W:hookbin.com/;P:hackbar;P:CryptoJS;P:forgeJS;W:apifox.cn--
 ### 运维管理
 - https://github.com/Tencent/bk-job    //Java。蓝鲸作业平台（Job）脚本管理系统
 - https://github.com/jumpserver/jumpserver    //Python3。开源堡垒机跳板机。
@@ -86,7 +92,7 @@
 - https://github.com/prometheus/prometheus    //Go。Google BorgMon监控系统的开源版本，支持通过配置文件、文本文件、Zookeeper、Consul、DNS SRV Lookup等方式指定抓取目标。
 - https://github.com/fabric/fabric    //Py。通过SSH远程shell批量执行命令。P:expect;P:PsExec;P:MSF session -C “命令”;--
 - https://github.com/ayoisaiah/f2    //Go。批量重命名工具。
-### 负载均衡设计
+### 负载均衡
 - https://github.com/github/glb-director    //负载均衡组件GLB，数据解析使用了dpdk。
 ### Nginx配置
 - https://github.com/bunkerity/bunkerized-nginx    //nginx安全镜像docker一键配置。
@@ -100,6 +106,8 @@
 - https://github.com/trimstray/iptables-essentials    //IP table常见防火墙规则与命令。P:/Firewall App Blocker 1.7 Windows防火墙快捷操作工具;P:/Linux下防火墙 firewall-cmd;--
 - https://github.com/SELinuxProject/selinux/    //C。安全增强型Linux（Security-Enhanced Linux），通过配置增强主机防护安全防御。
 - https://github.com/torvalds/linux/blob/master/drivers/net/macsec.c    //C。利用Linux macsec进行链路层流量安全加密。
+### 内网流量安全
+- https://github.com/shellster/DCSYNCMonitor    //域控制器检测 DCSync 攻击
 ### DNS防护建设
 - https://github.com/mwrlabs/dref    //DNS 重绑定利用框架
 - https://github.com/chengr28/Pcap_DNSProxy/blob/master/README.zh-Hans.md    //Pcap DNS Proxy 是一个基于 WinPcap/LibPcap 用于过滤 DNS 投毒污染的工具
@@ -119,8 +127,11 @@
 - https://github.com/cdk-team/CDK/wiki/CDK-Home-CN    //容器环境逃逸、横向移动、持久化利用方式，插件化管理。
 - https://github.com/brompwnie/botb    //Go。BOtB容器安全分析和脆弱点利用工具。利用CVE-2019-5736、DockerSocket或特权模式进行容器逃逸。
 - https://github.com/knqyf263/trivy    //Go。针对容器的漏洞扫描器。G:/cr0hn/dockerscan;--
-- https://github.com/P3GLEG/WhaleTail    //根据docker镜像生成dockerfile
+- https://github.com/P3GLEG/WhaleTail    //根据docker镜像生成dockerfile。
+- https://github.com/chaitin/libveinmind    //问脉容器感知与安全 SDK
+- https://github.com/chaitin/veinmind-tools    //基于veinmind-sdk打造的容器安全工具集
 ### Kubernetes集群安全
+- https://forum.butian.net/share/1095    //云原生之Kubernetes安全
 - https://github.com/aquasecurity/kube-hunter    //Py。采用了KHV + 数字进行漏洞编号，云原生环境Kubernetes框架漏洞扫描工具。W:info.aquasec.com/kubernetes-security;--
 - https://github.com/inguardians/peirates    //Go。Kubernetes集群的渗透测试工具，专注于权限提升和横向移动。
 - https://github.com/kabachook/k8s-security/    //bash,Py。k8s安全配置。
@@ -168,12 +179,13 @@
 - https://github.com/Al1ex/Pentest-tools    //内网渗透工具
 - https://github.com/microsoft/WindowsProtocolTestSuites    //C#。针对Windows开发规范的Windows协议测试套件。
 ### 安全测试辅助
-- https://github.com/knownsec/404StarLink-Project    //知道创宇404星链。goodjob。Kunlun-Mirror 白盒代码审计；LBot Xss bot模板；ksubdomain 无状态子域名爆破；Zoomeye Tools chrome插件；wam webapp、行业动态监控平台；bin_extractor 二进制敏感信息；CookieTest 测试api或某个请求的必选参数、cookie脚本；ipstatistics 基于ipip库的筛选ip列表脚本；cidrgen 基于cidr的子网IP列表生成器。
+- https://github.com/knownsec/404StarLink-Project    //知道创宇404星链。goodjob。Kunlun-Mirror 白盒代码审计；LBot Xss bot模板；Zoomeye Tools chrome插件；wam webapp、行业动态监控平台；bin_extractor 二进制敏感信息；CookieTest 测试api或某个请求的必选参数、cookie脚本；ipstatistics 基于ipip库的筛选ip列表脚本；cidrgen 基于cidr的子网IP列表生成器。
 - https://github.com/LasCC/Hack-Tools    //渗透辅助
 - http://requestbin.net/    //Inspect HTTP Requests。获取客户端http、dns请求。requestbin.com。
 - https://github.com/BugScanTeam/DNSLog    //py。四叶草基于django监控 DNS 解析记录和 HTTP 访问记录的工具，将 DNSServer 集成进 DNSLog 中，检测多种类型的blind漏洞。G:/allyomalley/dnsobserver;--
 - http://ceye.io    //知道创宇dns日志访问记录查询，可配合盲注、xss、解析对方真实ip使用。W:dnslog.cn/;--
 - https://github.com/opensec-cn/vtest    //Py。安全工程师渗透测试辅助，集合了mock、httplog、dns tools、xss，可用于测试各类无回显、无法直观判断或特定场景下的漏洞。
+- https://github.com/phith0n/conote-community    //Py。短域名+dnslog
 - https://github.com/ismailtasdelen/hackertarget    //Py。Use open source tools and network intelligence to help organizations with attack surface discovery and identification of security vulnerabilities。在线网络安全工具。
 - https://github.com/uknowsec/SharpNetCheck    //C#。配合如wmiexec、psexec等横向工具进行批量检测内网是否出网。
 - https://github.com/ultrasecurity/webkiller    //Py。ip信息、端口服务指纹、蜜罐探测、bypass cloudflare。
@@ -214,19 +226,25 @@
 - https://github.com/swisskyrepo/PayloadsAllTheThings    //Web渗透/CTF/XXE/常用脚本命令payloads。8K,goodjob。
 - https://www.octority.com/pepenote/    //10w行渗透测试命令
 
+# 链上风险
 ## 区块安全建设
-- https://www.chainnews.com/    //链闻，系统化学习区块链知识。
-- https://github.com/dvf/blockchain    //用Python从零开始创建区块链
-- tornado.cash    //链上混币器
-- https://wallet.trezor.io/    //热钱包 imtoken、tokpocket、onekey、metamask小狐狸
 - https://github.com/xianlimei/yiwei.github.io/wiki    //私有云、区块链安全研究，rasp、waf、主机安全产品介绍
 - https://mp.weixin.qq.com/s/dHhMRtQP1GZ_juWTaIjzmA    //慢雾余弦:区块链生态安全是一场真枪实弹的战争
-### 区块链安全分析
-- https://github.com/quoscient/octopus    //区块链智能合约安全分析工具
+### 智能合约安全
+- https://peckshield.medium.com/    //派盾安全审计报告
+- https://www.blocksecteam.com/    //合约设计报告
+- https://github.com/BlockchainSecBook/The-Hitchhiker-s-Guide-to-the-Blockchain-Sec    //《区块链安全入门与实战》
+### 智能合约审计
+- https://github.com/zjuchenyuan/whalerank    //追踪链上鲸鱼，合约互动行为分析。
+### 链上安全分析
+- https://github.com/quoscient/octopus    //区块链智能合约安全分析工具。W:honeypot.is;--
 - https://github.com/ConsenSys/mythril-classic    //以太坊智能协议区块链安全分析工具。
 - https://github.com/dmuhs/teatime    //Py3。针对区块链节点信息泄露、开放账号、配置篡改的RPC渗透框架
+- https://github.com/Rivaill/ethtx_ce    //Py。以太坊交易分析工具，Peckshield EthTx 二开跨链。
 - https://mp.weixin.qq.com/s/O36e0gl4cs0ErQPsb5L68Q    //公众号：区块链、以太坊智能合约审计 CheckList
 - https://github.com/slowmist/eos-bp-nodes-security-checklist    //区块链，EOS bp nodes security checklist（EOS超级节点安全执行指南）
+- https://www.coinonpro.com/news/toutiao/199581.html    //闪电贷的攻击与防御
+- https://github.com/GGCCCC/airdrop_multi_claim    //合约群撸空投羊毛工具
 ### 区块链checklist
 - https://www.freebuf.com/articles/blockchain-articles/176668.html    //空手套白狼？USDT 假充值逻辑缺陷漏洞利用分析，基于合约恶意授权获取用户支付权限。P:二维码盗 usdt 安全事件分析;--
 - https://paper.seebug.org/1546/    //智能合约漏洞系列 -- 运行平台科普篇
@@ -245,12 +263,14 @@
 - https://zhuanlan.zhihu.com/p/101989442    //5分钟了解谷歌BeyondCorp零信任安全模型。P:Airbnb的零信任架构实战案例;--
 
 ## 合规建设
-- https://github.com/momosecurity/bombus    //Vue,Py。依据为SOX法案陌陌开源的安全合规审计平台
 - https://mp.weixin.qq.com/s/uD8xZse3TLH7vjzJOp_kxw    //网信办、工信部教我做产品！W:note.youdao.com/s/K4vFx4Ki //网信办、工信部学习资料（欢迎收藏备用）
+### 合规安全
+- https://github.com/momosecurity/bombus    //Vue,Py。依据为SOX法案陌陌开源的安全合规审计平台
+- https://mp.weixin.qq.com/s/IoVzbLSxPI3m3v47X8jB_A    //App合规实践3000问
 ### 等保安全
 - https://mp.weixin.qq.com/s/gcohsAQSHHCVoG-HlYYaeg    //公众号：等级保护测评方法（精华版）
 - https://github.com/paradiseduo/ApplicationScanner    //Python。移动端App等保测试工具。
-### 数据安全建设
+### 数据安全
 - https://github.com/mydlp    //MyDLP是一种简单，简单和开放的DLP（数据丢失预防）解决方案
 ### 数字水印
 - https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools    //Chrome开发者工具中文手册
@@ -260,9 +280,10 @@
 - https://github.com/thinkst/canarytokens    //Py。重要文件的追踪溯源，信标定位（canarytokens.org/generate#）服务端代码/蜜标。
 
 ## 安全风控建设
-- https://github.com/threathunterX/nebula    //LUA/Perl。威胁猎人开源"星云"业务风控系统
+- https://github.com/threathunterX/nebula    //LUA,Perl。威胁猎人开源"星云"业务风控系统
 - https://github.com/momosecurity/aswan    //Py。陌陌风控系统静态规则引擎，零基础简易便捷的配置多种复杂规则，实时高效管控用户异常行为。
 - https://github.com/xdite/internet-security    //互联网金融企业安全与风控的实战手册。资安风控。
+- https://help.aliyun.com/document_detail/73845.html    //相同的card_id在十分钟内，在两个不同的location发生刷卡现象，就会触发报警机制，以便监测信用卡盗刷等现象。
 
 ## 安全运营建设
 - 公众号：终端安全运营年度笔记    //

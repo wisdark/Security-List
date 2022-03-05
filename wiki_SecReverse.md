@@ -96,10 +96,11 @@
 - http://www.gda.wiki:9090/    //Java。全交互式的现代反编译器。G:charles2gan/GDA-android-reversing-Tool;--
 - https://github.com/iBotPeaches/Apktool    //java。Android逆向apk反编译工具.8K.
 - https://github.com/UltimateHackers/Diggy    //Bash。基于apktool反编译后正则匹配从 Apk 文件中提取 URLs 的工具，apkurl。simple
-- https://github.com/TheKingOfDuck/ApkAnalyser    //py。提取安卓应用敏感信息。
+- https://github.com/TheKingOfDuck/ApkAnalyser    //py。安卓应用敏感信息提取。用户密码、aksk
 ### Javascript逆向
 - https://www.zyxiao.com/p/39429/    //记录一次前端JS加密绕过 ｜ 绕过前端解密的两种方法
 ### OSX/IOS逆向
 - https://github.com/0x36/ghidra_kernelcache    //iOS内核逆向框架
+- https://github.com/ptswarm/reFlutter    //Flutter逆向分析工具
 ### PHP逆向分析
 - https://www.jb51.net/softs/558419.html    //SeayDzend，支持zend5.2/zend5.3/zend5.4 PHP解密

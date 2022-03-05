@@ -1,6 +1,6 @@
 # 空间测绘
 - https://github.com/nmap/nmap    //Lua。Nmap扫描器具有有强大的脚本引擎框架。greatjob。
-- https://github.com/cea-sec/ivre    //Py。网络资产指纹发现，bro/argus/nfdump/p0f/nmap/zmap/masscan/数据库mongoDB。G:/nanshihui/Scan-T;G:/LangziFun/LangNetworkTopology3;G:/LubyRuffy/fofa;--
+- https://github.com/cea-sec/ivre    //Py。网络资产指纹发现，bro/argus/nfdump/p0f/nmap/zmap/masscan/数据库mongoDB。G:/alechilczenko/pwndora;G:/nanshihui/Scan-T;G:/LangziFun/LangNetworkTopology3;G:/LubyRuffy/fofa;--
 - https://github.com/zmap/zmap    //C。无状态扫描，可使用C编写扩展模块。censys三件套。
 - https://github.com/zmap/zgrab2    //Go。配合zmap/ztag的指纹抓取工具。censys三件套。G:/chichou/grab.js;--
 - https://github.com/zmap/zdns    //Go。Fast CLI DNS Lookup Tool。censys三件套。
@@ -34,7 +34,6 @@
 - https://github.com/projectdiscovery/mapcidr    //Go。子网CIDR扫扫描器。
 ### 资产指纹识别
 - https://github.com/AliasIO/Wappalyzer    //JS。网站指纹识别。资产库，Chrome扩展。5k。G:/l3m0n/whatweb;G:/Lucifer1993/cmsprint;G:/boy-hack/gwhatweb;G:/zerokeeper/WebEye;n4xh4ck5/CMSsc4n;G:/Ms0x0/Dayu;G:/0xbug/Howl;G:/jekyc/wig;G:/tanjiti/FingerPrint;G:/ywolf/F-MiddlewareScan;G:/1N3/Sn1per;--
-- https://github.com/ShiHuang-ESec/EHole    //EHole(棱洞)-红队重点攻击系统指纹探测工具，fofa api。goodjob。
 - https://github.com/HA71/WhatCMS    //Bash。基于Whatcms.org API进行CMS检测和漏洞利用脚本。
 - https://github.com/urbanadventurer/whatweb    //Ruby。Web指纹识别。goodjob。G:/Rvn0xsy/FastWhatWebSearch;G:/ggusoft/inforfinder;--
 - https://github.com/zhzyker/dismap    //Go。识别 Web 指纹信息，定位资产类型。G:/s0md3v/Arjun    //Py3。HTTP参数信息挖掘工具。simple。
@@ -43,6 +42,11 @@
 - https://github.com/mozilla/cipherscan    //目标主机服务ssl类型识别。
 - https://github.com/EnableSecurity/wafw00f    //WAF产品指纹识别
 ### 资产&漏洞管理
+- https://www.shodan.io/    //老牌空间测绘。W:zoomeye.org;W:censys.io/;W:oshadan.com;W:spyse.com;--
+- https://www.fofa.so    //白帽汇空间测绘。G:/zsdevX/DarkEye;G:/tangxiaofeng7/Fofa-collect;G:/uknowsec/Fofa-gui;G:/x51/fofahelper;--
+- https://github.com/ShiHuang-ESec/EHole    //EHole(棱洞)-红队重点攻击系统指纹探测工具，fofa api。goodjob。
+- https://github.com/knownsec/Kunyu    //Py3。基于zoomeye企业资产信息搜集
+- https://github.com/x0day/Multisearch-v2    //Bing、google、360、zoomeye等搜索引擎聚合搜索，可用于发现企业被搜索引擎收录的敏感资产信息。
 - https://github.com/zhaoweiho/SecurityManageFramwork    //PY3。SecurityManageFramwork-SeMF基于django2，包含资产管理，漏洞管理，账号管理，知识库管、安全扫描自动化功能模块，可用于企业内部的安全管理。goodjob。G:/ATpiu/asset-scan;--
 - https://github.com/infobyte/faraday    //协作渗透测试和漏洞管理平台
 - https://github.com/DefectDojo/django-DefectDojo    //Py。基于django的漏洞资产管理平台
@@ -100,8 +104,6 @@
 # Web安全检测
 - https://portswigger.net/research/web-cache-entanglement    //Web缓存投毒的新途径
 - https://github.com/Bo0oM/PHP_imap_open_exploit    //利用imap_open绕过php exec函数禁用
-- https://github.com/utiso/dorkbot    //通过定制化的谷歌搜索引擎进行漏洞页面搜寻及扫描
-- https://github.com/NullArray/DorkNet    //基于搜索引擎的漏洞网页搜寻
 - https://github.com/18F/domain-scan    //针对域名及其子域名的资产数据检测／扫描，包括http/https检测。
 - https://github.com/jcesarstef/dotdotslash    //目录遍历漏洞测试
 - https://paper.seebug.org/1148/    //RFI 巧用 WebDAV 绕过 URL 包含限制 Getshell。远程文件包含漏洞利用。
@@ -168,6 +170,7 @@
 - https://github.com/stamparm/DSXS    //支持GET、POST方式的高效XSS扫描器
 - https://github.com/bsmali4/xssfork    //Py。利用无头浏览器进行xss测试，kali下载PhantomJS驱动到目录"thirdparty/phantomjs/Linux"。
 - https://github.com/riusksk/FlashScanner    //flash xss扫描。
+- https://www.anquanke.com/post/id/263107    //DOM XSS 存储型XSS自动检测与验证模型。G:/AsaiKen/dom-based-xss-finder;--
 ### XSS漏洞利用平台框架
 - https://github.com/beefproject/beef    //JS,Ruby。BeEF跨平台Web浏览器渗透测试工具。
 - https://xss.fbisb.com/    //在线XSS利用平台，xss练习靶场。W:xsshs.cn;xss.wtf;xsspt.com;xs.ax;--

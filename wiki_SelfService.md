@@ -37,7 +37,7 @@
 - https://github.com/zu1k/xray-crack    //Go。xray证书社区高级版生成
 
 ## 开发外包
-- 
+- https://github.com/loonggg/DevMoneySharing    //独立开发者赚钱经验分享。GoodJob
 - https://www.fiverr.com    //美金，短期
 - https://www.upwork.com    // 美金，中长期
 - https://www.proginn.com    //程序员客栈
@@ -52,6 +52,7 @@
 - https://zh.wikihow.com    //生活百科
 - https://github.com/devzwy/Crack-Edition-software-for-Mac    //各类破解版Mac软件
 - https://mirrors.huaweicloud.com/    //华为开源镜像站。w:mirrors.tuna.tsinghua.edu.cn;--
+- https://github.com/fangzesheng/free-api    //免费的接口服务。goodjob
 ### 短网址
 - http://xip.io/    //302 bypass，访问这个服务的任意子域名的时候，都会重定向到这个子域名。
 - https://4m.cn/    //短域名302 bypass。
@@ -126,10 +127,11 @@
 - https://app.diagrams.net/    //在线思维导图、流程图。W:draw.io;W:go.gliffy.com/go/html5/launch;--
 - https://www.processon.com/    //拓扑图、流程图，类似Visio。P:亿图;P:xmind ZEN;--
 ### 文档编辑
-- https://www.notion.so/    //项目笔记管理。mybase;--
+- https://www.notion.so/    //项目笔记管理。G:/AppFlowy-IO/AppFlowy;P:mybase;--
 - https://shimo.im/    //石墨笔记协同办公，支持三件套、思维导图、画板，需要在线。P:/腾讯文档 //支持离线，三件套;P:/语雀 //需要在线，支持文档、表格;P:/Google文档 //三件套，需要在线;W:notion.so;--
 - https://github.com/leanote/leanote/    //JS。开源笔记，类似为知笔记、envnote等。G:/giuspen/cherrytree;--
-- https://obsidian.md/    //知识图谱笔记。G:/marktext/marktext/    //js。markdown编辑器
+- https://obsidian.md/    //知识图谱笔记。G:/marktext/marktext/    //js。markdown编辑器。
+- https://casual-effects.com/markdeep/    //开源markdown编辑器。
 - https://www.microsoft.com/zh-cn/p/office-lens/    //微软文件扫描识别
 - https://pandoc.org/    //文档格式转换。greatjob。
 - https://www.ilovepdf.com/zh-cn    //在线pdf编辑。W:pdfpai.com;W:smallpdf.com;W:edit.foxitcloud.cn;W:pdftoword.55.la;W:pdf.wondershare.com;--
@@ -147,6 +149,7 @@
 - https://github.com/b3log/symphony    //Java。论坛/BBS/社交网络/博客社区平台。
 - https://github.com/b3log/pipe    //Go。多用户博客平台。
 - https://github.com/b3log/solo    //Java。个人博客。
+- https://github.com/wagtail/wagtail    //Py。基于django的内容分发框架。
 ### 工单管理
 - https://github.com/RobbieHan/gistandard    //Py。基于DjanGO的OA工单办公管理系统。
 - https://github.com/pavanw3b/sh00t    //Py3。基于DjanGO的安全测试工单管理。
@@ -178,7 +181,7 @@
 - https://github.com/schollz/croc    //Go。点对点文件传输。
 - https://github.com/micahflee/onionshare    //PHP。利用onion洋葱服务器的匿名文件共享。
 - https://github.com/magic-wormhole/magic-wormhole    //基于 PAKE 协议的文件加密传输隧道
-- https://github.com/filebrowser/filebrowser    //Go。基于Caddy框架的网盘文件管理器。G:/ganlvtech/down_52pojie_cn;--
+- https://github.com/filebrowser/filebrowser    //Go。基于Caddy web服务框架的网盘文件管理器。G:/ganlvtech/down_52pojie_cn;--
 - https://github.com/Layne666/oneindex/    //php。Onedrive Directory Index，默认使用世纪互联VPS进行索引OneDrive存储。G:/qkqpttgf/OneManager-php;--
 - https://github.com/aliyun/oss-browser/    //Js。OSS Browser 提供类似windows资源管理器功能，用户可以很方便的共享文档，上传下载文件，支持断点续传等。
 - https://github.com/seemoo-lab/opendrop    //py3。基于owlink.org的Apple AirDrop文档共享实现
@@ -192,7 +195,7 @@
 - https://msdn.itellyou.cn    //原生镜像
 - http://patorjk.com    //Text to ASCII Art Generator
 - https://www.wondercv.com/    //简历模板生成
-- https://resume.mdedit.online/editor/#/    //在线木及简历。G:/hua1995116/react-resume-site;--
+- https://resume.mdedit.online/editor/#/    //在线简历。G:/hua1995116/react-resume-site;--
 ### 素材剪辑
 - https://github.com/obsproject/obs-studio    //C。用于实时流媒体和屏幕录制。官网obsproject.com。
 - https://github.com/ShareX/ShareX/    //.Net。基于FFmpeg的录频、图像处理，OCR文字识别。
@@ -238,3 +241,5 @@
 - http://wenku.baiduvvv.com/doc/    //文库下载
 - http://www.pptbz.com    //ppt下载
 - http://www.1ppt.com/    //无登录免费ppt下载
+- https://suulnnka.github.io/BullshitGenerator/index.html    //小说文章生成器。G:/menzi11/BullshitGenerator;--
+- https://www.xsxia.com/page/show_12_19.html    //小说素材生成

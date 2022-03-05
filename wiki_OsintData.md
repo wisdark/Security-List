@@ -82,12 +82,13 @@
 - https://github.com/lion-gu/ioc-explorer    //Py。从多数据源进行关联指标（IOC）自动探索
 ### 威胁情报源
 - https://github.com/t4d/StalkPhish    //Py。钓鱼网站情报收集。W:urlscan.io;urlquery.net;phishtank.com;openphish.com;--
+- https://check.torproject.org/cgi-bin/TorBulkExitList.py?ip=1.1.1.1/    //洋葱路由出口节点
+- https://faweb.fofa.so/classification/    //空间测绘节点
+- https://isc.sans.edu/api/threatlist/shodan/    //shodan撒旦扫描器节点
 - https://intel.criticalstack.com/    //Intel威胁情报库可集成bro，恶意IP地址。
 - https://talosintelligence.com/documents/ip-blacklist/    //恶意IP地址
 - https://ransomwaretracker.abuse.ch/downloads/RW_IPBL.txt/    //恶意软件IP地址
 - https://github.com/fox-it/cobaltstrike-extraneous-space/blob/master/cobaltstrike-servers.csv/    //CobaltStrike服务端IP地址
-- https://check.torproject.org/cgi-bin/TorBulkExitList.py?ip=1.1.1.1/    //洋葱路由出口节点
-- https://isc.sans.edu/api/threatlist/shodan/    //shodan撒旦扫描器节点
 - http://osint.bambenekconsulting.com/feeds/c2-ipmasterlist.txt/    //恶意IP域名
 - reputation.alienvault.com/reputation.data/    //恶意IP域名
 - https://myip.ms/files/blacklist/general/latest_blacklist.txt/    //恶意IP域名
@@ -203,7 +204,6 @@
 ### 企业人员信息搜集
 - https://hunter.io/    //企业邮箱搜集。商业版。
 - https://www.aihitdata.com/    //全球公司信息变更汇总（地址、所有人、联系方式）。可结合天眼查\企查查
-- https://github.com/x0day/Multisearch-v2    //Bing、google、360、zoomeye等搜索引擎聚合搜索，可用于发现企业被搜索引擎收录的敏感资产信息
 - https://github.com/vysec/MaiInt    //公司雇员信息收集测试工具
 - https://github.com/jofpin/trape    //Py。利用OSINT对人员进行追踪定位。4k。
 - https://www.truthfinder.com    //美国公民信息查询。商业版。
@@ -229,8 +229,6 @@
 
 ## Web信息搜集
 - https://www.virustotal.com/    //在线威胁狩猎。包含pdns、文件、网址、域名、IP检测。W:crt.sh/;W:spyse.com/;W:securitytrails.com/#search;W:dnsdumpster.com/;--
-- https://www.shodan.io/    //老牌空间测绘。W:zoomeye.org;W:censys.io/;W:oshadan.com;W:spyse.com;--
-- https://www.fofa.so    //白帽汇空间测绘。G:/zsdevX/DarkEye;G:/tangxiaofeng7/Fofa-collect;G:/uknowsec/Fofa-gui;G:/x51/fofahelper;--
 - https://zhifeng.io/mobile/online.html    //灯塔移动端互联网感知引擎，附近iot设备发现。
 - https://hackertarget.com/ip-tools/    //提供api、ip相关工具，在线扫描器，工具文章研究博客。W:tools.bugscaner.com/;W:safeweb.norton.com;--
 - https://www.freebuf.com/articles/network/276069.html    //如何通过查询Google Analytics ID来获取相关联的域名和子域名
@@ -282,31 +280,26 @@
 - https://github.com/pentester-io/commonspeak    //Bash。Linux下直接用 Google big query 查 alexa top 1M 的子域名采集 和 一些文件路径 (包含多个数据集)
 - https://github.com/IvanGlinkin/Fast-Google-Dorks-Scan/    //Shell。Google Dorks域名页面搜索。
 - https://github.com/r00tSe7en/GoogleHackingTool    //GoogleDorks漏洞语法查询。
+- https://github.com/utiso/dorkbot    //通过定制化的谷歌搜索引擎进行漏洞页面搜寻及扫描
+- https://github.com/NullArray/DorkNet    //基于搜索引擎的漏洞网页搜寻
 
 ## 敏感信息挖掘
 - https://github.com/Raikia/CredNinja    //多线程用户凭证验证脚本，比如验证dump的hash是否属于此机器，利用445端口进行协议验证。
 - https://github.com/boy-hack/wooyun-payload     //burpsuite插件。基于乌云漏洞中的密码信息进行1比对提取。
-### 敏感文件信息
-- https://github.com/donot-wong/sensinfor    //JS。chrome敏感信息泄露插件，to find leak file and backup file
+### 敏感信息审计
 - https://github.com/Acceis/leakScraper    //处理和可视化大规模文本文件，查找证书等敏感信息。
 - https://github.com/Yelp/detect-secrets    //Py。防止代码中的密码等相关敏感信息被提交到代码库中。
 - https://github.com/Acceis/leakScraper    //处理和可视化大规模文本文件，查找证书等敏感信息。
+- https://github.com/trufflesecurity/truffleHog    //py。扫描文件内的高熵字符（aksk/密钥/加密字段）。
 - https://github.com/CERTCC/keyfinder    //查找并分析私钥/公钥文件(文件系统中)，支持 Android APK 文件
 - https://github.com/Ice3man543/hawkeye    //Go。cli端，文件系统分析工具，快速查找文件内包含的SSH密钥，日志文件，Sqlite数据库，密码文件等
+- https://github.com/donot-wong/sensinfor    //JS。chrome敏感信息泄露插件，to find leak file and backup file
 - https://github.com/D4Vinci/Cr3dOv3r    //根据邮箱自动搜索泄漏的密码信息，也可测试账户密码在各大网站能否登录的工具
 - https://github.com/lijiejie/idea_exploit    //Py。利用 IDE config folder (.idea) 进行文件下载
 - https://github.com/Graph-X/davscan    //PY,Bash。用于扫描启用DAV网盘服务的Web服务器上的隐藏文件和文件夹
 - https://github.com/gehaxelt/ds_store    //Go。苹果电脑.Ds_Store文件解析。labs.internetwache.org/ds_store/。
 - https://github.com/admintony/svnExploit/    //Py。SVN源代码泄露全版本Dump源码
 - https://www.waitalone.cn/seay-svn-poc-donw-20140505.html    //Seay-Svn源代码1.7版本前泄露漏洞利用工具，2014-05-05版。G:/shengqi158/svnhack;--
-### Git安全相关
-- https://github.com/obheda12/GitDorker/blob/master/Dorks/alldorks.txt    //GitHub泄露搜索Dorks
-- https://github.com/VKSRC/Github-Monitor    //JS。GitHub监控代码信息泄露，分钟级邮件预警。G:/0xbug/Hawkeye;G:/neal1991/gshark;G:/FeeiCN/GSIL;G:/repoog/GitPrey;G:/Hell0W0rld0/Github-Hunter;--
-- https://github.com/Furduhlutur/yar    //Go。Github监控存储库、用户和组织。Yar支持克隆用户/组织的存储库，并按照提交时间顺序遍历整个提交历史，搜索密钥、令牌及密码等。
-- https://github.com/eth0izzle/shhgit    //Go。GitHub敏感信息、证书令牌搜集，140多证书指纹。3k。G:/UnkL4b/GitMiner;--
-- https://github.com/internetwache/GitTools    //SHELL,Py3。查找、下载、提取git文件。G:/HightechSec/git-scanner;--
-- https://github.com/BugScanTeam/GitHack    //Py。可还原历史版本，源代码.git泄漏利用工具。
-- https://github.com/zricethezav/gitleaks    //Go。检查git repo中的密码信息和密钥。G:/git-hound //GitHound;G:/metac0rtex/GitHarvester;G:/dxa4481/truffleHog;G:/awslabs/git-secrets;--
 ### 敏感链接信息
 - https://github.com/lc/gau    //Go。敏感URL链接、子域挖掘。goodjob。
 - https://github.com/Threezh1/JSFinder    //Py。用于发现网站js文件中的url与域名
@@ -318,3 +311,12 @@
 - https://github.com/7kbstorm/7kbscan-WebPathBrute    //C#。目录路径爆破。界面GUI。P:御剑目录;P:Pker多线程后台极速扫描工具;P:Test404轻量后台扫描器;G:/fnk0c/cangibrina;G:/0daysec/webscan_dir;G:/maurosoria/dirsearch;G:/Xyntax/DirBrute;G:/abaykan/crawlbox;G:/deibit/cansina;--
 - https://github.com/UltimateHackers/Breacher    //多线程的后台路径扫描器，支持Execution After Redirect漏洞探测。G:/jerrychan807/WSPIH;G:/aipengjie/sensitivefilescan;G:/Mosuan/FileScan;G:/Xyntax/FileSensor;G:/ring04h/weakfilescan;--
 - https://github.com/Go0s/SitePathScan    //Py。基于协程的目录路径爆破工具，配合aiohttp扫描路径增速三倍。
+### Git安全相关
+- https://github.com/molly/gh-dork    //Github Dorking工具
+- https://github.com/obheda12/GitDorker/blob/master/Dorks/alldorks.txt    //GitHub泄露搜索Dorks
+- https://github.com/VKSRC/Github-Monitor    //JS。GitHub监控代码信息泄露，分钟级邮件预警。G:/0xbug/Hawkeye;G:/neal1991/gshark;G:/FeeiCN/GSIL;G:/repoog/GitPrey;G:/Hell0W0rld0/Github-Hunter;--
+- https://github.com/Furduhlutur/yar    //Go。Github监控存储库、用户和组织。Yar支持克隆用户/组织的存储库，并按照提交时间顺序遍历整个提交历史，搜索密钥、令牌及密码等。
+- https://github.com/eth0izzle/shhgit    //Go。GitHub敏感信息、证书令牌搜集，140多证书指纹。3k。G:/UnkL4b/GitMiner;--
+- https://github.com/BugScanTeam/GitHack    //Py。可还原历史版本，源代码`.git`泄漏利用工具。
+- https://github.com/zricethezav/gitleaks    //Go。检查git repo中的密码信息和密钥。G:/git-hound //GitHound;G:/metac0rtex/GitHarvester;G:/dxa4481/truffleHog;G:/awslabs/git-secrets;--
+- https://github.com/internetwache/GitTools    //SHELL,Py3。查找、下载、提取git文件。G:/HightechSec/git-scanner;--
