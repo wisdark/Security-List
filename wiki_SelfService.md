@@ -108,7 +108,7 @@
 - http://www.vuln.cn/tools/ftp    --匿名FTP登录
 - https://github.com/stascorp/rdpwrap    --Pascal。开启异步并发rdp请求服务，3389分身多开。
 
-## wiki平台
+## Wiki平台
 - https://github.com/phachon/mm-wiki    --Go。企业知识分享与团队协同软件，用于构建企业 Wiki 和团队知识分享平台。G:/hackmdio/codimd;--
 - http://mrdoc.zmister.com/    --Py。基于Django的MarkDown文档写作、项目管理，支持一键部署，pyinstaller打包Web服务。Gitee:zmister/MrDoc;G:/zmister2016/MrDoc;Gitee:/debj031634/win-django;--
 - https://github.com/Kenshin/simpread    --沉浸式阅读，文章保存。
@@ -180,9 +180,10 @@
 - https://github.com/seemoo-lab/opendrop    --py3。基于owlink.org的Apple AirDrop文档共享实现
 ### 文件检索
 - https://www.voidtools.com    --Everything文件和文件夹快速定位。greatjob。W:anytxt.net;--
+- https://github.com/sharkdp/fd    --rust。Find everything
 - https://github.com/uknowsec/SauronEye-Modify    --C#。Windows下网络驱动器文件关键字检索，支持快速查找目标终端文件并压缩打包上传OSS存储。goodjob。G:/vivami/SauronEye;--
 - https://www.mythicsoft.com    --全文检索工具。FileLocatorPro，类似于SearchMyFiles架构
-- https://github.com/sharkdp/fd    --rust。Find everything
+- https://github.com/dnGrep/dnGrep    --C#。文本检索工具。
 
 ## 素材资源
 - http://www.aigei.com/    --全资源部分免费商用
@@ -199,6 +200,7 @@
 - https://zenvideo.qq.com/    --在线剪辑 一键分发
 - https://krita.org/zh/    --开源数位板绘画软件。P:sketch;--
 - https://www.audacityteam.org/    --音频文件和波形图处理工具。P:adobe AU;--
+- https://github.com/zcf0508/autocut-client    --autocut自动剪辑
 ### 字体素材
 - https://www.hellofont.cn/    --开源字体
 ### 文档素材
@@ -227,8 +229,6 @@
 - https://www.tosound.com/    --免费音频
 ### 视频素材
 1. 阿里妈妈 创意中心 - 首页 - https://chuangyi.taobao.com/
-2. https://33.agilestudio.cn/    --33台词
-3. https://33-app.agilestudio.cn/    --根据台词查找电影
 - https://pixabay.com/    --图像、视频免费使用，商用受保护
 - https://www.videezy.com/    --免费使用，商用受保护
 - https://www.pexels.com/    --图像、视频免费使用
@@ -249,17 +249,18 @@
 - https://github.com/sylnsfar/qrcode    --Py3。动态二维码生成器。
 - https://mp.weixin.qq.com/s/cwv3_qGr_LzsH-SbcYalWg    --以图搜图。【技巧】如何查找一个图标、符号的含义（2）
 
-## 小说二创
+## 话本二创
 - https://www.bjinternetcourt.gov.cn/    --北京互联网法院
 - https://basic.smartedu.cn/    --国家智慧教育公共服务平台
 - https://pdos.csail.mit.edu/archive/scigen/    --SCIgen 学术文档虚拟文件生成钓鱼
-- https://suulnnka.github.io/BullshitGenerator/index.html    --小说文章生成器。G:/menzi11/BullshitGenerator;--
+- https://suulnnka.github.io/BullshitGenerator/index.html    --狗屁不通文章生成器。G:/menzi11/BullshitGenerator;--
 - https://lovelive.tools/    --说话的艺术 渣男语录
-- https://www.xsxia.com/page/show_12_19.html    --小说侠素材生成
+- 美食 绵阳料理 https://v.douyin.com/ieEJv4F2/
+- https://33.agilestudio.cn/    --33台词根据台词查找电影
 - https://zh.wikihow.com    --生活百科
 - https://chaping.chayu.com/    --茶语茶评
-- 悬疑    --抖音。推理学院
-- 美食    --抖音。绵阳料理
+- https://www.osgeo.cn/map/m0311    --春秋战国时期地图
 - http://www.zhiyuanzhongyi.com/    --中医中药
 - https://sou-yun.cn/PoemIndex.aspx    --诗词歌赋
 - https://cbaigui.com/    --纪妖 知妖
+- https://www.advink.cn/#/tools/index    --小说侠素材达墨生成
